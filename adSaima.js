@@ -1,8 +1,8 @@
 const ActiveDirectory = require('activedirectory');
 const config = { url: 'ldap://saimasolutions.local',
                baseDN: 'dc=saimasolutions,dc=local',
-               username: 'operador@saimasolutions.local',
-               password: 'Saima2012' }
+               username: 'usuario de ad',
+               password: 'pass' }
 const ad = new ActiveDirectory(config);
 
 var username = '';

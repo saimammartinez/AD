@@ -6,8 +6,8 @@ const session = require('express-session');
 const ActiveDirectory = require('activedirectory');
 const config = { url: 'ldap://saimasolutions.local',
                baseDN: 'dc=saimasolutions,dc=local',
-               username: 'operador@saimasolutions.local',
-               password: 'Saima2012' }
+               username: 'usuario ad',
+               password: 'pass' }
 const ad = new ActiveDirectory(config);
 
 
